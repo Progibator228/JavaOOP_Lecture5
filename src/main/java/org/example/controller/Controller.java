@@ -23,7 +23,7 @@ public class Controller {
 
     public void run (){
         User user1 = new Student("22 Февраля","Стасян",10);
-        User user2 = new Student("99 Декабря","Васян",100);
+        Student user2 = new Student("99 Декабря","Васян",100);
         Teacher teacher1 = new Teacher("30 Марта", "Валерчик",1000);
         service.userCreate(user1);
         service.userCreate(user2);
@@ -33,15 +33,6 @@ public class Controller {
         System.out.println("studyGroup = " + studyGroup);
 
         view.print(studyGroup);
-
-
-
-
-
-
-
-
-
 
 
 
