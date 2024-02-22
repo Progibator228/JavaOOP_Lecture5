@@ -32,10 +32,12 @@ public class Controller {
         StudyGroup studyGroup =  StudyGroupFormation.formatGroup(teacher1,UserService.userList);
         System.out.println("studyGroup = " + studyGroup);
 
-        // Пиши новый сбор студентов ? а вот сам додумай бля
+        view.print(studyGroup);
 
 
-        //System.out.println("UserService.userList = " + UserService.userList);
+
+
+
 
 
 
